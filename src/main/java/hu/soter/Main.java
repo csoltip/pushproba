@@ -4,7 +4,7 @@ import hu.soter.modell.Harcos;
 
 public class Main {
 
-    private final Harcos h;
+    private static Harcos h;
 
     public Main() {
         kiiro();
@@ -13,7 +13,7 @@ public class Main {
     }
 
     private static void kiiro() {
-        System.out.println();
+        System.out.println(h.getEro());
     }
 
 
