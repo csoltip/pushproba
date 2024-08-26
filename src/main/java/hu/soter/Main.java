@@ -4,11 +4,12 @@ import hu.soter.modell.Harcos;
 
 public class Main {
 
-    private Harcos h;
+    private final Harcos h;
 
     public Main() {
         kiiro();
         h = new Harcos(5);
+        h.setEro(7);
     }
 
     private static void kiiro() {

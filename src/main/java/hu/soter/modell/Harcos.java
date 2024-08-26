@@ -11,10 +11,6 @@ public class Harcos {
         return ero;
     }
 
-    /**
-     *
-     * @param ero
-     */
     public void setEro(int ero) {
         this.ero = ero;
     }
