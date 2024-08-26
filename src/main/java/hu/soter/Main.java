@@ -5,7 +5,7 @@ import hu.soter.modell.Harcos;
 public class Main {
 
     private static Harcos h;
-
+//
     public Main() {
         kiiro();
         h = new Harcos(5);
