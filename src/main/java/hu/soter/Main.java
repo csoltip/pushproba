@@ -7,7 +7,7 @@ public class Main {
     private static Harcos h;
 
     public Main() {
-        h = new Harcos(5);
+        h = new Harcos(4);
         kiiro("alap: " + h.getEro() );
         h.setEro(7);
         kiiro("beállítva: " + h.getEro() + "");
