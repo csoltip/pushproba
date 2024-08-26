@@ -9,7 +9,7 @@ public class Main {
     public Main() {
         kiiro();
         h = new Harcos(5);
-        h.setEro(7);
+        h.setEro(11);
     }
 
     private static void kiiro() {
